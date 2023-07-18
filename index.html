@@ -1,0 +1,63 @@
+---
+layout: default
+title: Online Guides To The Best Zoos In The US State-By-State
+canonical: /
+noAds: true
+---
+
+<!-- Home Jumbotron
+================================================== -->
+<section class="intro full-width">
+    <div class="wrapintro">
+        <h1>Unleashing America's Wildlife Wonders.</h1> 
+        <h2 class="lead">Your Comprehensive Guide to Family-Friendly, Accessible Zoos across the nation and Where to spot Your favorite animals.</h2>
+    </div>
+</section>
+
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
+    </div>
+
+    <div class="row listfeaturedtag">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+                {% include featuredbox.html %}
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts row">
+
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="col-sm-8">
+
+        <div class="section-title">
+            <h2><span>Latest Articles</span></h2>
+        </div>
+
+        <div class="masonrygrid row listrecent">
+            {% for post in site.posts limit:6 %}
+
+                {% include postbox.html %}
+
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

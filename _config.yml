@@ -1,0 +1,22 @@
+# Site
+name: "Zoo Near Me"
+title_suffix: "Zoo Near Me | Online Guides To The Best Zoos In The US State-By-State"
+title: "Online Guides To The Best Zoos In The US State-By-State"
+description: "Online Guides To The Best Zoos In The US State-By-State"
+meta_description: "Online Guides To The Best Zoos In The US State-By-State"
+logo: "/assets/images/zoonearme.png"
+favicon: "/assets/images/favicon.ico"
+baseurl: "https://www.zoonear.me"
+permalink: /:title
+email: ""
+google_analytics: ""
+future: true
+
+# Authors
+authors:
+  reece:
+    name: Reece
+    display_name: Reece Williams 
+    gravatar:
+    email: ""
+    description: ""
