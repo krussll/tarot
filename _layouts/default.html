@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HD88E8NJ31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HD88E8NJ31');
+</script>
+
+<meta charset="utf-8">
+<meta name="google-site-verification" content="3hy6rng49LmxKJ53UCGkhh56RmYZTdFZoHEpkktdxOY" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="max-image-preview:large">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	
+{% if page.tags != blank %}	
+<meta name="keyword" content="{{ page.tags }}">
+{% endif %}
+	
+<title>{{ page.title }} | {{site.title_suffix}}</title>
+  
+<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/images/zoonearme.png" />
+        </a>
+        <!-- End Logo -->
+
+        <!-- Begin Menu -->
+        <div class="collapse navbar-collapse" id="navbarsWow">
+
+            <!-- Begin Menu -->
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ site.baseurl }}/zoos-by-states">All States</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about-me">About</a>
+                </li>
+            </ul>
+            <!-- End Menu -->
+
+        </div>
+    </div>
+</header>
+
+
+
+<!-- End Menu Navigation
+================================================== -->
+
+<div class="site-content">
+
+    <div class="container">
+
+
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        {{ content }}
+    </div>
+
+    </div><!-- /.container -->
+
+<!-- Ezoic - bottom_of_page - bottom_of_page -->
+<div id="ezoic-pub-ad-placeholder-103"> </div>
+<!-- End Ezoic - bottom_of_page - bottom_of_page -->
+
+    <!-- Begin Footer
+    ================================================== -->
+    <footer class="footer">
+
+        <div class="container">          
+            <div class="row">
+
+                <div class="col-sm-3">
+                  <div class="footer-widget">
+                  </div>
+                </div>
+
+                <div class="col-sm-3">
+                  <div class="footer-widget">
+                  </div>
+                </div>
+
+                <div class="col-sm-3">
+                <div class="footer-widget">
+                </div>
+                </div>
+
+
+                <div class="col-sm-3">
+			<div class="footer-widget">
+                <h5 class="title">About {{ site.name }}</h5>
+                <ul>
+                <li><a href="{{ site.baseurl }}/about-me">About Me</a></li>
+                <li><a href="{{ site.baseurl }}/affiliate-disclaimer" rel="nofollow">Affiliate Disclaimer</a></li>
+                <li><a href="{{ site.baseurl }}/terms" rel="nofollow">Terms and Conditions</a></li>
+                <li><a href="{{ site.baseurl }}/privacy" rel="nofollow">Privacy Policy</a></li>
+                </ul>
+			</div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="pull-left">
+                  Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
+                </p>
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- End Footer
+    ================================================== -->
+
+
+</div> <!-- /.site-content>
+
+<!-- JavaScript
+================================================== -->
+
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/lazysizes.min.js' async></script>
+
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+</body>
+
+</html>
