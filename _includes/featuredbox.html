@@ -1,0 +1,14 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+
+<div class="col-md-6 grid-item">
+<div class="card">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        {% if post.image %} <img class="img-fluid lazyload" data-src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+    </a>
+    <div class="card-block">
+        <h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    </div>
+</div>
+</div>
+<!-- end post -->
