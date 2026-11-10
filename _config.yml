@@ -12,6 +12,16 @@ email: ""
 google_analytics: ""
 future: true
 
+# Exclude from processing
+exclude:
+  - agents/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+
+
 # Authors
 authors:
   reece:
